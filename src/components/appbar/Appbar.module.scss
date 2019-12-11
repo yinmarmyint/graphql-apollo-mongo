@@ -1,0 +1,30 @@
+.titleBox {
+  text-align: center;
+  .title {
+    color: #fff;
+    font-size: 1.3rem;
+    .subTitle {
+      font-size: 0.9rem;
+    }
+  }
+}
+.nav {
+  margin-right: 20px;
+
+  :global ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+:global .rs-navbar-default a {
+  color: #f5b041 !important;
+}
+
+:global .rs-navbar-default a:focus {
+  background-color: #333e49 !important;
+}
+:global .rs-navbar-default a:hover {
+  background-color: transparent !important;
+  color: #cc9600 !important;
+}

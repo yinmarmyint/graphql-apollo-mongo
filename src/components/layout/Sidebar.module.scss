@@ -1,0 +1,124 @@
+@import "../../static/scss/variables.scss";
+
+.navHeaderStyle {
+  padding: 18px;
+  color: #23212c;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.sidenav {
+  background-color: $brandColor !important;
+  height: 100%;
+  .sidebarDropdown {
+    :global .rs-dropdown-toggle {
+      color: #313133e0 !important;
+      background-color: $brandColor;
+    }
+    :global(.rs-dropdown-toggle):hover {
+      color: #000 !important;
+      background-color: #01113b21 !important;
+    }
+    :global .rs-dropdown-item-content {
+      color: #f9e79f !important;
+      background-color: $brandColor !important;
+    }
+    :global(.rs-dropdown-item-content):hover {
+      color: #000 !important;
+      background-color: #f9e79f69 !important;
+    }
+  }
+  .sidebarDropdown1 {
+    :global .rs-dropdown-toggle {
+      color: #313133e0 !important;
+      background-color: $brandColor;
+    }
+    :global(.rs-dropdown-toggle):hover {
+      color: #000 !important;
+      background-color: #01113b21 !important;
+    }
+    :global .rs-dropdown-menu {
+      margin-left: 50px;
+    }
+    :global .rs-dropdown-item-content {
+      color: #000 !important;
+    }
+    :global(.rs-dropdown-item-content):hover {
+      color: $brandColor !important;
+    }
+  }
+}
+
+:global .rs-nav-item > a {
+  color: #313133e0 !important;
+}
+:global .rs-nav-item > a:hover {
+  color: #000 !important;
+}
+
+:global(.rs-nav-item-content:hover),
+:global(.rs-nav-item-content:focus) {
+  background: #01113b21 !important;
+}
+
+:global(.rs-tooltip-inner) {
+  background: #0e2f5a !important;
+}
+.limitIcon {
+  border-radius: 100%;
+  border: 1px solid #eee;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+:global(.rs-container-has-sidebar) {
+  min-height: 100vh !important;
+}
+
+.scrollbar {
+  overflow: auto;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  top: 200px;
+  padding: 0 10px;
+}
+
+#scroll::-webkit-scrollbar {
+  border-radius: 5px;
+  width: 10px;
+}
+
+#scroll::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: hsla(0, 15%, 91%, 0.4);
+}
+
+#scroll::-webkit-scrollbar-track-piece {
+  padding: 20px;
+}
+
+.footer {
+  width: 250px;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  position: fixed;
+  bottom: 2% !important;
+  animation: fadein 1s;
+  color: #ebd8bf;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

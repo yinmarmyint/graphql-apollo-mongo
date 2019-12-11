@@ -1,0 +1,125 @@
+{
+  "BOK_001": "Booking is successfully created",
+  "BOK_002": "Booking is successfully updated",
+  "BOK_003": "Booking has been deleted",
+  "BOK_004": "Booking Menu is successfully updated",
+  "BOK_501": "Booking not found",
+
+  "BKS_001": "Booking status is updated",
+
+  "CUS_001": "Customer is successfully created",
+  "CUS_002": "Customer is successfully updated",
+  "CUS_003": "Customer has been deleted",
+  "CUS_500": "Customer not found",
+
+  "SET_002": "Setting is Successfully updated !",
+  "SET_501": "Setting is not found",
+
+  "REG_001": "Region is successfully created",
+  "REG_003": "Region is successfully updated",
+  "REG_002": "Region has been deleted",
+  "REG_500": "Region not found",
+  "REG_501": "Region already exist",
+
+  "AUT_001": "Login is successful",
+  "AUT_500": "Login failure",
+  "AUT_501": "Error Generated Token Refresh",
+  "AUT_502": "User is not enabled.",
+
+  "PRO_001": "Profile is successfully updated",
+  "PRO_002": "Password is successfully updated",
+  "PRO_500": "Profile password Mismatch",
+
+  "BRA_001": "Branch is successfully created",
+  "BRA_002": "Branch is successfully updated",
+  "BRA_003": "Branch enabled ",
+  "BRA_004": "Branch disabled ",
+  "BRA_500": "Branch is not found",
+  "BRA_501": "Branch already exist",
+  "BRA_502": "Branch limit is reached",
+  "BRA_503": "Own status is changed",
+  "BRA_504": "Invalid Bussiness Branch",
+  "BRA_505": "Invalid Branch",
+
+  "USR_001": "Admin is successfully created",
+  "USR_002": "Admin is successfully updated",
+  "USR_003": "Admin enabled ",
+  "USR_004": "Admin disabled ",
+  "USR_005": "Admin unlocked",
+  "USR_006": "Default Branch is updated",
+  "USR_500": "Admin not found",
+  "USR_501": "Admin already exist",
+  "USR_502": "Admin limit reached",
+  "USR_503": "No Permission Branch For Business",
+  "USR_504": "No Permission Branch For User",
+
+  "BUS_002": "Business is successfully updated",
+  "BUS_500": "Business not found",
+  "BUS_501": "Business already exist",
+
+  "INV_001": "Invoice is Created",
+  "INV_002": "Invoice is Updated",
+  "INV_003": "Invoice is Deleted",
+  "INV_500": "Invoice not Found",
+
+  "INS_001": "Invoice Status is updated",
+
+  "ITEM_001": "Item is successfully created",
+  "ITEM_002": "Item has been deleted",
+  "ITEM_003": "Item is successfully updated",
+  "ITEM_500": "Item not found",
+  "ITEM_501": "Item already exist",
+  "ITEM_502": "Item is used by booking",
+  "ITEM_503": "Invalid Business Item",
+  "ITEM_504": "Invalid Branch Item",
+
+  "TAG_001": "Tag is successfully created",
+  "TAG_002": "Tag is successfully updated",
+  "TAG_500": "Tag Not Found",
+
+  "NTF_004": "Read Notification",
+  "NTF_003": "Delete Notification",
+
+  "SER_001": "Service successfully created",
+  "SER_002": "Service successfully deleted",
+  "SER_003": "Service successfully updated",
+  "SER_500": "Service not found",
+  "SER_501": "Service already existed",
+  "SER_502": "Service not found",
+  "SER_503": "Inavlid Business Service",
+  "SER_504": "Inavlid Branch Service",
+
+  "ST_001": "Ticket Type is Created",
+  "ST_003": "Ticket Type is Updated",
+  "ST_500": "Ticket Type is Not Found",
+  "ST_501": "Duplicate Ticket Type",
+
+  "STP_001": "Ticket Type Price is Created",
+  "STP_002": "Ticket Type Price is Updated",
+  "STP_500": "Ticket Type Price is Not Found",
+
+  "ORD_001": "Order is successfully created.",
+  "ORD_002": "Order is successfully updated.",
+  "ORD_003": "Order is successfully deleted.",
+  "ORD_500": "Order not found",
+
+  "ODE_001": "Orderdetail is successfully created.",
+  "ODE_002": "Orderdetail is successfully updated.",
+  "ODE_501": "Ordered Ticket Set",
+
+  "TKS_001": "Ticket Set is successfully created.",
+  "TKS_002": "Ticket Set is successfully updated.",
+  "TKS_003": "Ticket Set is successfully deleted.",
+  "TKS_500": "Ticket Set not found",
+  "TKS_501": "Ticket Set limit mismatch",
+  "TKS_502": "Invalid Ticket Set",
+  "TKS_503": "Ticket set with same ticket",
+
+  "TICKET_501": "Ticket existed",
+
+  "FQC_001": "Fequency is successfully created.",
+  "FQC_002": "Fequency is successfully deleted.",
+  "FQC_003": "Fequency is successfully updated.",
+  "FQC_500": "Fequency not found",
+  "FQC_501": "Fequency Number duplicated"
+}
