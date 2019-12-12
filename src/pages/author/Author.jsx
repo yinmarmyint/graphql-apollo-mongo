@@ -14,7 +14,7 @@ const Author = () => {
         onClick={() => setIsOpenCreateModal(true)}
       >
         <Icon icon="plus" className="mr-2" />
-        <span style={{ fontSize: "15px" }}>Create New Engine</span>
+        <span style={{ fontSize: "15px" }}>Create New Author</span>
       </Button>
       <AuthorCreateModal
         isShow={isOpenCreateModal}

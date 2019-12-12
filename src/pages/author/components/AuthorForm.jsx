@@ -1,27 +1,38 @@
 import React from "react";
-import { connect } from "react-redux";
-import { Form, Button } from "rsuite";
+import { Button, Form } from "rsuite";
 import { Formik } from "formik";
 import Field from "../../../components/fields/Field";
 
-const RegionForm = props => {
-  const { onClose, onFormSubmit } = props;
+const AuthorForm = props => {
+  const { onClose, onFormSubmit, author } = props;
 
+  let initialValues;
+  if (author) {
+    initialValues = {
+      name: author.name || "",
+      age: author.age || ""
+    };
+  }
   return (
     <Formik
       enableReinitialize
-      // initialValues={props.region || { name: "" }}
+      initialValues={
+        initialValues || {
+          name: "",
+          age: ""
+        }
+      }
       onSubmit={onFormSubmit}
       render={({ handleSubmit }) => (
         <Form fluid onSubmit={handleSubmit}>
-          <Field name="name" label="Name" type="text" isRequired />
-          <Field name="age" label="Age" type="text" isRequired />
+          <Field name="name" placeholder="Name" />
+          <Field name="age" placeholder="Age" />
           <div className="d-flex justify-content-end">
             <Button onClick={onClose} appearance="subtle" className="mr-2">
               Cancel
             </Button>
             <Button color="cyan" type="submit">
-              {props.region ? <>Update</> : <>Create</>}
+              {props.author ? <>Update</> : <>Create</>}
             </Button>
           </div>
         </Form>
@@ -30,4 +41,4 @@ const RegionForm = props => {
   );
 };
 
-export default connect(null, null)(RegionForm);
+export default AuthorForm;

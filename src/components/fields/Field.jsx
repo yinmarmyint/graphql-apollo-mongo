@@ -9,7 +9,6 @@ const InputComponet = ({
   type,
   field, // { name, value, onChange, onBlur }
   form: { touched, errors },
-  disabled,
   ...props
 }) => {
   return (
@@ -20,7 +19,6 @@ const InputComponet = ({
         {...props}
         type={type}
         componentClass={componentClass}
-        disabled={disabled}
         onChange={(value, event) => {
           field.onChange(event);
         }}
